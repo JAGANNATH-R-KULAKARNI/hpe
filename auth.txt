@@ -1,4 +1,4 @@
-May 30 01:49:16 jagannath-VirtualBox gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user jagannath(uid=1000) by (uid=0)
+slssp;sp!!!!ay 30 01:49:16 jagannath-VirtualBox gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user jagannath(uid=1000) by (uid=0)
 May 30 01:49:17 jagannath-VirtualBox systemd-logind[563]: New session 1 of user jagannath.
 May 30 01:49:17 jagannath-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user jagannath(uid=1000) by (uid=0)
 May 30 01:49:20 jagannath-VirtualBox gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
