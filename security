@@ -1,0 +1,57 @@
+23:26:39 systemd: Started Tracker metadata extractor.
+23:26:39 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+23:26:38 systemd: Starting Tracker metadata extractor...
+23:26:38 dbus-daemon: [session uid=1000 pid=861] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.88' (uid=1000 pid=1535 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+23:26:24 nautilus: Could not delete '.meta.isrunning': No such file or directory
+23:26:15 gnome-shell: DING: GNOME nautilus 42.0
+23:26:15 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.ArchiveManager1'
+23:26:15 gnome-shell: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+23:26:14 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.freedesktop.FileManager1'
+23:26:14 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:26:14 dbus-daemon: [session uid=1000 pid=861] Activating service name='org.freedesktop.FileManager1' requested by ':1.31' (uid=1000 pid=1006 comm="/usr/bin/gnome-shell " label="unconfined")
+23:26:14 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:26:14 gdm-session-wor: gkr-pam: unlocked login keyring
+23:26:04 gnome-shell: JS ERROR: Failed to initialize fprintd service: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available
+asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+
+23:17:01 cron: pam_unix(cron:session): session closed for user root
+23:12:26 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:12:26 update-notifier: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+23:12:26 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:01:08 systemd: Started Application launched by gnome-session-binary.
+23:00:11 gnome-shell: unable to update icon for software-update-available
+23:00:11 pkexec: jagannath: Executing command [USER=root] [TTY=unknown] [CWD=/home/jagannath] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+23:00:08 systemd: Started Application launched by gnome-session-binary.
+23:00:01 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.Logs'
+23:00:00 gnome-calendar: Failed to open/connect to calendar: Unable to connect to “Personal”: Cannot open calendar: Cannot parse ISC file “/home/jagannath/.local/share/evolution/calendar/system/calendar.ics”
+22:59:59 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.Calendar'
+22:59:59 nautilus: Connecting to org.freedesktop.Tracker3.Miner.Files
+22:59:59 gnome-calculato: search-provider.vala:140: Failed to spawn Calculator: Child process killed by signal 9
+22:59:59 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+22:59:59 systemd: Started GNOME Terminal Server.
+22:59:59 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.Terminal'
+22:59:59 systemd: Starting GNOME Terminal Server...
+22:59:59 dbus-daemon: [session uid=1000 pid=861] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.31' (uid=1000 pid=1006 comm="/usr/bin/gnome-shell " label="unconfined")
+22:59:38 snap-store: not handling error failed for action refresh: E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+
+22:59:34 pool-org.gnome.: SECCOMP auid=1000 uid=1000 gid=1000 ses=2 subj=? pid=1389 comm="pool-org.gnome." exe="/snap/snap-store/582/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7fc61027339b code=0x50000
+22:59:32 systemd: Started Tracker metadata extractor.
+22:59:32 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+22:59:32 gnome-shell: ATK Bridge is disabled but a11y has already been enabled.
+22:59:32 systemd: Reached target GNOME session X11 services.
+22:59:31 xkbcomp: Errors from xkbcomp are not fatal to the X server
+22:59:31 systemd: Starting GNOME XSettings service...
+22:59:31 Xwayland: Failed to initialize glamor, falling back to sw
+22:59:31 systemd: Starting Tracker metadata extractor...
+22:59:31 dbus-daemon: [session uid=1000 pid=861] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.88' (uid=1000 pid=1535 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+22:59:25 nautilus: Could not delete '.meta.isrunning': No such file or directory
+22:59:23 pulseaudio: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+22:59:16 snap-store: /etc/PackageKit/Vendor.conf file not found
+22:59:15 kernel: USER_AVC pid=620 uid=102 auid=4294967295 ses=4294967295 subj=? msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.6" pid=1389 label="snap.snap-store.ubuntu-software" peer_pid=635 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+22:59:14 snapd-desktop-i: All available theme snaps installed
+22:59:14 gnome-shell: DING: GNOME nautilus 42.0
+22:59:14 systemd: Started Virtual filesystem metadata service.
+22:59:14 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gtk.vfs.Metadata'

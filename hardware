@@ -1,0 +1,24 @@
+22:58:43 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+22:58:39 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+22:58:24 kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+22:58:24 kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+22:58:24 kernel: usb 1-1: Manufacturer: VirtualBox
+22:58:24 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+22:58:24 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+22:58:24 kernel: usb 1-1: new full-speed USB device number 2 using ohci-pci
+22:58:24 kernel: scsi host2: ahci
+22:58:24 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+22:58:24 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+22:58:24 kernel: platform eisa.0: EISA: Detected 0 cards
+22:58:24 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+22:58:24 kernel: hub 1-0:1.0: 12 ports detected
+22:58:24 kernel: usb usb1: SerialNumber: 0000:00:06.0
+22:58:24 kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+22:58:24 kernel: scsi host1: ata_piix
+22:58:24 kernel: ata_piix 0000:00:01.1: version 2.13
+22:58:24 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+22:58:24 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+22:58:24 kernel: pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+22:58:24 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+22:58:24 kernel: pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+22:58:24 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.

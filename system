@@ -1,0 +1,51 @@
+22:59:35 kernel: audit: type=1326 audit(1656523774.266:65): auid=1000 uid=1000 gid=1000 ses=2 subj=? pid=1389 comm="pool-org.gnome." exe="/snap/snap-store/582/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7fc61027339b code=0x50000
+22:59:08 kernel: rfkill: input handler disabled
+22:59:03 kernel: audit: type=1326 audit(1656523742.756:50): auid=1000 uid=1000 gid=1000 ses=2 subj=? pid=842 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/14/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f0f89b9073d code=0x50000
+22:58:55 kernel: loop14: detected capacity change from 0 to 8
+22:58:55 kernel: audit: type=1400 audit(1656523735.276:46): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=789 comm="cups-browsed" capability=23  capname="sys_nice"
+22:58:55 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+22:58:55 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+22:58:54 kernel: audit: type=1400 audit(1656523734.924:45): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=740 comm="cupsd" capability=12  capname="net_admin"
+22:58:54 kernel: kauditd_printk_skb: 33 callbacks suppressed
+22:58:49 kernel: sched: RT throttling activated
+22:58:43 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+22:58:39 kernel: [drm] Initialized vmwgfx 2.19.0 20210722 for 0000:00:02.0 on minor 0
+22:58:39 kernel: Console: switching to colour frame buffer device 100x37
+22:58:39 kernel: fbcon: svgadrmfb (fb0) is primary device
+22:58:39 kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+22:58:39 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+22:58:39 kernel: audit: type=1400 audit(1656523719.464:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=406 comm="apparmor_parser"
+22:58:39 kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 kiB
+22:58:39 kernel: [TTM] Zone   dma32: Available graphics memory: 2097152 KiB
+22:58:39 kernel: Console: switching to colour dummy device 80x25
+22:58:39 kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+22:58:39 kernel: audit: type=1400 audit(1656523719.412:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=405 comm="apparmor_parser"
+22:58:36 kernel: intel_rapl_msr: PL4 support detected.
+22:58:35 kernel: random: crng init done
+22:58:29 kernel: vboxguest: misc device minor 123, IRQ 20, I/O port d040, MMIO at 0x00000000f0400000 (size 0x0000000000400000)
+22:58:29 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+22:58:29 kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+22:58:29 kernel: vboxguest: host-version: 6.1.32r149290 0x8000000f
+22:58:28 kernel: loop13: detected capacity change from 0 to 568
+22:58:28 kernel: loop12: detected capacity change from 0 to 568
+22:58:26 kernel: loop11: detected capacity change from 0 to 96160
+22:58:26 kernel: loop10: detected capacity change from 0 to 91544
+22:58:26 kernel: loop9: detected capacity change from 0 to 93928
+22:58:26 kernel: loop8: detected capacity change from 0 to 93920
+22:58:26 kernel: loop7: detected capacity change from 0 to 166424
+22:58:26 kernel: loop6: detected capacity change from 0 to 509456
+22:58:26 kernel: loop5: detected capacity change from 0 to 520384
+22:58:26 kernel: loop4: detected capacity change from 0 to 330800
+22:58:26 kernel: loop3: detected capacity change from 0 to 332368
+22:58:26 kernel: loop2: detected capacity change from 0 to 126824
+22:58:26 kernel: loop1: detected capacity change from 0 to 126808
+22:58:26 kernel: loop0: detected capacity change from 0 to 8
+22:58:26 kernel: ipmi device interface
+22:58:26 kernel: IPMI message handler: version 39.2
+22:58:24 kernel: Started Journal Service.
+22:58:24 kernel: ppdev: user-space parallel port driver
+22:58:24 kernel: Condition check resulted in First Boot Complete being skipped.
+22:58:24 kernel: Finished Load/Save Random Seed.
+22:58:24 kernel: lp: driver loaded but no devices found
+22:58:24 kernel: Finished Coldplug All udev Devices.
+22:58:24 kernel: Reached target Swaps.

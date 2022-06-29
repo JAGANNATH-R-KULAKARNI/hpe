@@ -1,0 +1,53 @@
+23:26:39 systemd: Started Tracker metadata extractor.
+23:26:39 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+23:26:38 systemd: Starting Tracker metadata extractor...
+23:26:38 dbus-daemon: [session uid=1000 pid=861] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.88' (uid=1000 pid=1535 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+23:26:34 systemd: fprintd.service: Deactivated successfully.
+23:26:24 nautilus: Could not delete '.meta.isrunning': No such file or directory
+23:26:19 systemd: Started Hostname Service.
+23:26:19 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+23:26:18 systemd: Starting Hostname Service...
+23:26:18 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.95' (uid=1000 pid=2745 comm="/usr/bin/gnome-logs --gapplication-service " label="unconfined")
+23:26:15 gnome-shell: DING: GNOME nautilus 42.0
+23:26:15 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.gnome.ArchiveManager1'
+23:26:15 gnome-shell: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+23:26:14 dbus-daemon: [session uid=1000 pid=861] Successfully activated service 'org.freedesktop.FileManager1'
+23:26:14 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:26:14 NetworkManager: <info>  [1656525374.6016] agent-manager: agent[95cadfddb6ca0172,:1.44/org.gnome.Shell.NetworkAgent/1000]: agent registered
+23:26:14 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:26:14 dbus-daemon: [session uid=1000 pid=861] Activating service name='org.freedesktop.FileManager1' requested by ':1.31' (uid=1000 pid=1006 comm="/usr/bin/gnome-shell " label="unconfined")
+23:26:14 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:26:14 gdm-session-wor: gkr-pam: unlocked login keyring
+23:26:04 gnome-shell: JS ERROR: Failed to initialize fprintd service: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available
+asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+
+23:26:04 systemd: Started Fingerprint Authentication Daemon.
+23:26:04 dbus-daemon: [system] Successfully activated service 'net.reactivated.Fprint'
+23:26:04 systemd: Starting Fingerprint Authentication Daemon...
+23:26:04 dbus-daemon: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.44' (uid=1000 pid=1006 comm="/usr/bin/gnome-shell " label="unconfined")
+23:17:01 cron: pam_unix(cron:session): session closed for user root
+23:14:27 systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+23:14:17 NetworkManager: <info>  [1656524657.7547] manager: NetworkManager state is now CONNECTED_GLOBAL
+23:14:17 systemd: Started Network Manager Script Dispatcher Service.
+23:14:17 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+23:14:17 systemd: Starting Network Manager Script Dispatcher Service...
+23:14:17 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=621 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+23:14:17 NetworkManager: <info>  [1656524657.2186] manager: NetworkManager state is now CONNECTED_SITE
+23:13:43 systemd: Finished Cleanup of Temporary Directories.
+23:12:26 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:12:26 update-notifier: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+23:12:26 gnome-shell: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+23:07:08 systemd: Finished Daily apt upgrade and clean activities.
+23:04:03 snapd: autorefresh.go:539: auto-refresh: all snaps are up-to-date
+23:04:02 systemd: Started Time & Date Service.
+23:04:02 dbus-daemon: [system] Successfully activated service 'org.freedesktop.timedate1'
+23:04:02 systemd: Starting Time & Date Service...
+23:04:02 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.38' (uid=0 pid=642 comm="/usr/lib/snapd/snapd " label="unconfined")
+23:03:44 systemd: Finished Download data for packages that failed at package install time.
+23:00:58 anacron: Normal exit (0 jobs run)
+23:00:57 systemd: Started Run anacron jobs.
+23:00:11 gnome-shell: unable to update icon for software-update-available
+23:00:11 pkexec: jagannath: Executing command [USER=root] [TTY=unknown] [CWD=/home/jagannath] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+23:00:08 systemd: Started Application launched by gnome-session-binary.
+23:00:05 geoclue: Service not used for 60 seconds. Shutting down..
+23:00:02 systemd: Started Application launched by gnome-shell.
